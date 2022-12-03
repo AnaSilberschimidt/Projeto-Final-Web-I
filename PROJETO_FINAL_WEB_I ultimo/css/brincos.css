@@ -1,0 +1,92 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;   
+    color:#334b58 
+}
+.cabecalho{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho img{
+    position: relative;
+    height: 80%;
+    width: auto;
+    margin-left: 50px;
+}
+.cabecalho b{
+    margin-top: 10px;
+    font-size: 14pt;
+    color: #81a7be;
+    text-shadow: 0px 1px #000000;
+}
+.venda{
+
+    border: double 3px  #81a7be;
+    border-radius: 30px;
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imagem {
+    padding: 10px;
+    position: relative;
+    display:flex
+    
+
+}
+.anuncio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    color: #6898b6;
+    text-shadow: 1px 1px #000000;
+    font-weight:bolder;   
+}
+h4, h1{
+    padding-left: 0px;
+}
+.envio {
+    padding-left: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.botao{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.botao input[type=button]{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 12pt;
+    transition: 0.2s;
+}
+
+.botao input[type=button]:hover{
+    color: white;
+    background-color: #81a7be;
+    font-weight: bolder;
+}
+
